@@ -1,12 +1,36 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/classRoom/index",
+    "pages/myBoon/index",
+    "pages/shopRoom/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "布恩绘本",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "小布课",
+        "pagePath": "pages/classRoom/index"
+      },
+      {
+        "text": "绘本馆",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "跳蚤街",
+        "pagePath": "pages/shopRoom/index"
+      },
+      {
+        "text": "小布恩",
+        "pagePath": "pages/myBoon/index"
+      }
+    ]
   }
 }

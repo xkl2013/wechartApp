@@ -1,0 +1,4 @@
+/* pages/classRoom/index.wxss */
+.slide-image{
+  width: 100%;
+}
